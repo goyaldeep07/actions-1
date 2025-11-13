@@ -9,7 +9,7 @@ jobs:
           run: sudo apt-get install cowsay -y
 
         - name: execute cowsay CMD
-          run: run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
+          run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
 
         - name: sleep for 30 seconds
           run: sleep 30
@@ -32,4 +32,3 @@ jobs:
         - name: Deploy
           run: echo Deploying ... .. .
 
-          
